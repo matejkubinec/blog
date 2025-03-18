@@ -1,0 +1,9 @@
+@import "{{ site.theme }}";
+
+footer {
+  display: none !important;
+}
+
+header a.btn {
+  display: none !important;
+}
