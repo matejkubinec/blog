@@ -1,9 +1,17 @@
+---
+---
+
 @import "{{ site.theme }}";
 
-footer {
-  display: none !important;
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+.markdown-body,
+body {
+  font-family: "IBM Plex Serif", serif;
 }
 
-header a.btn {
-  display: none !important;
+pre,
+code {
+  font-family: "IBM Plex Mono", monospace !important;
 }
